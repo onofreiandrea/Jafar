@@ -1,0 +1,17 @@
+Program sampleThread;
+
+shared int a;
+shared int c;
+int b;
+
+{
+    int d;
+    {
+        int b;
+        b := 1;
+        {
+            int f;
+            f := 3;
+        }
+    }
+}
